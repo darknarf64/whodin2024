@@ -174,14 +174,12 @@ class _FechasDatosState extends State<FechasDatos> {
         lastDate: DateTime(3000),
         locale: const Locale('es', 'ES'));
 
-    if (picked != null) {
-      setState(() {
-        _fecha = DateFormat('dd-MM-yyyy').format(picked);
-        _inputFieldFechaController.text = _fecha;
-        picketFecNac = picked;
-      });
+    setState(() {
+      _fecha = DateFormat('dd-MM-yyyy').format(picked!);
+      _inputFieldFechaController.text = _fecha;
+      picketFecNac = picked;
+    });
     }
-  }
 
   //widget de fecha de Evaluacion
   Widget _crearFechasEvaluacion(BuildContext context) {
@@ -215,14 +213,12 @@ class _FechasDatosState extends State<FechasDatos> {
         lastDate: DateTime(3000),
         locale: const Locale('es', 'ES'));
 
-    if (picked != null) {
-      setState(() {
-        _fechaEvaluacion = DateFormat('dd-MM-yyyy').format(picked);
-        _inputFieldFechaEvaluacionController.text = _fechaEvaluacion;
-        picketEvaluacion = picked;
-      });
+    setState(() {
+      _fechaEvaluacion = DateFormat('dd-MM-yyyy').format(picked!);
+      _inputFieldFechaEvaluacionController.text = _fechaEvaluacion;
+      picketEvaluacion = picked;
+    });
     }
-  }
 
   //crea el input del peso
   Widget _crearInputPeso(ResultadoBloc bloc) {

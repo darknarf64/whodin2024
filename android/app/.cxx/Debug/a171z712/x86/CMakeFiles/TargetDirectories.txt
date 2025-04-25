@@ -1,0 +1,2 @@
+C:/Fernando/FLUTTER 2025/whodin2024/android/app/.cxx/Debug/a171z712/x86/CMakeFiles/edit_cache.dir
+C:/Fernando/FLUTTER 2025/whodin2024/android/app/.cxx/Debug/a171z712/x86/CMakeFiles/rebuild_cache.dir

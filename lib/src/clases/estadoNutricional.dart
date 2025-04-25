@@ -139,10 +139,10 @@ class EstadoNutricional {
               estadoIMCE = "Normal";
             } else {
               if (imcCal < zIMCEMM2) {
-                estadoIMCE = "Posible riesgo de sobrepeso (Ver nota 3)";
+                estadoIMCE = "Sobrepeso (Menor de 5 años: Riesgo de sobrepeso)";
               } else {
                 if (imcCal < zIMCEMM3) {
-                  estadoIMCE = "Sobrepeso";
+                  estadoIMCE = "Obesidad (Menor de 5 años: sobrepeso)";
                 } else {
                   estadoIMCE = "Obesidad";
                 }
